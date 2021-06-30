@@ -1,10 +1,12 @@
 package observer.model;
 
+import observer.observable.Observable;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class BBQ {
+public class BBQ extends Observable {
 
     private final List<Steak> steaks;
     private final List<Dog> dogs;
